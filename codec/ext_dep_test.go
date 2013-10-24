@@ -12,13 +12,13 @@ package codec
 //   - Uncomment first line in this file (put // // in front of it)
 //   - Get those packages:
 //       go get github.com/vmihailenco/msgpack
-//       go get labix.org/v2/mgo/bson
+//       go get github.com/brandscreen/mgo/bson
 //   - Run:
 //       go test -bi -bench=.
 
 import (
-	vmsgpack "github.com/vmihailenco/msgpack"
-	"labix.org/v2/mgo/bson"
+	"github.com/brandscreen/mgo/bson"
+	vmsgpack "github.com/brandscreen/msgpack"
 	"testing"
 )
 
